@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  background-color: antiquewhite;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:blue;
+}
+
+.father{
+  background-color: blueviolet;
+  padding: 30px;
+  font-size: 20px;
+}
+
+p{
+font-size: 30px;
+}
