@@ -1,0 +1,52 @@
+.house{
+  position: relative;
+  left: 700px;
+  top: 300px;
+}
+
+
+.base{
+  width: 200px;
+  height: 200px;
+  background-color: burlywood;
+  position: absolute;
+}
+
+.roof{
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 100px solid goldenrod;
+  height: 0;
+  width: 0;
+  position: absolute;
+  z-index: 10;
+  bottom: 0px;
+  left: -50px;
+}
+
+.door{
+  position: absolute;
+  background-color: black;
+  width: 40px;
+  height: 75px;
+  top: 125px;
+  left: 25px;
+}
+
+.window{
+  background-color: aquamarine;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left:  120px;
+  top: 50px;
+}
+
+.smokestack{
+  position: absolute;
+  background-color: brown;
+  width: 40px;
+  height: 75px;
+  bottom: 40px;
+  left: 25px;
+}
